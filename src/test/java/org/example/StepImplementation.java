@@ -110,27 +110,4 @@ public class StepImplementation extends BasePage {
         Thread.sleep(2000);
     }
 
-    /*
-    @Step("Go to Gauge Get Started Page")
-    public void gotoGetStartedPage() throws InterruptedException {
-        WebElement getStartedButton = Driver.webDriver.findElement(By.xpath("//a[@href='https://docs.gauge.org/getting_started/installing-gauge.html']"));
-        getStartedButton.click();
-
-        Gauge.writeMessage("Page title is %s", Driver.webDriver.getTitle());
-    }
-
-    @Step("Ensure installation instructions are available")
-    public void ensureInstallationInstructionsAreAvailable() throws InterruptedException {
-        WebElement instructions = Driver.webDriver.findElement(By.xpath("//a[@href='/writing-specifications.html']"));
-        assertThat(instructions).isNotNull();
-    }
-
-    @Step("Open the Gauge homepage")
-    public void implementation1() {
-        String app_url = System.getenv("APP_URL");
-        Driver.webDriver.get(app_url + "/");
-        assertThat(Driver.webDriver.getTitle()).contains("Gauge");
-    }
-
-     */
 }
