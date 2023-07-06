@@ -1,0 +1,25 @@
+Jabra Elite 7 Pro TWS ANC Kulak İçi Bluetooth Kulaklık
+Huawei FreeBuds 5 TWS ANC Gri Kulak İçi Bluetooth Kulaklık
+1More ES901 ComfoBuds Pro TWS ANC Kablosuz Kulak İçi Bluetooth Kulaklık Beyaz
+Philips TAPH805BK ANC Hi-Res Kulak Üstü Bluetooth Kulaklık
+Huawei FreeBuds 4i ANC Kulak İçi Bluetooth Kulaklık Siyah
+Philips TABH305BK Bass+ ANC Kulak Üstü Bluetooth Kulaklık
+Anker SoundCore Life Q10i ANC Kulak Üstü Bluetooth Kulaklık
+Huawei FreeBuds 5 TWS ANC Kulak İçi Bluetooth Kulaklık
+JBL Tune 230NC TWS ANC Kulak İçi Bluetooth Kulaklık
+Anker SoundCore Life Note 3i TWS ANC Kulak İçi Bluetooth Kulaklık
+Sennheiser HD 450BT ANC Kulak Üstü Bluetooth Kulaklık
+Sennheiser HD 450BT ANC Kulak Üstü Bluetooth Kulaklık Beyaz
+JBL Club 950NC ANC Kulak Üstü Bluetooth Kulaklık
+Urbanista Los Angeles Güneş Enerjili ANC Kulak Üstü Kulaklık Altın Sarısı
+Philips TAH8507 ANC Kulak Üstü Bluetooth Kulaklık
+Urbanista Los Angeles Güneş Enerjili ANC Kulak Üstü Kulaklık
+PKA Pembe Akıllı Saat Airpods Seri 2 Anc Özellikli Bluetooth Kulaklık
+Philips TAA7507BK Kablosuz Spor Kulaklık, IPX5, ANC Pro, Rüzgar Gürültüsü Önleme
+Urbanista Miami ANC Kulak Üstü Bluetooth Kulaklık
+Philips TAH8506BK ANC Kulak Üstü Bluetooth Kulaklık Siyah
+Philips Taa7507Bk Gerçek Kablosuz Spor Kulaklık 28 Saat Ipx5 Anc Pro Hi-Res Audio Mono Mod
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

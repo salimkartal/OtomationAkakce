@@ -1,0 +1,1 @@
+var index = {"Tags":{},"Specs":{"Getting Started with Akakce":["specs/example.html"]}};

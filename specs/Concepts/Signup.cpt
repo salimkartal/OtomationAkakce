@@ -1,0 +1,6 @@
+Created by salim.kartal on 7/6/2023
+
+This is a concept file with following syntax for each concept.
+# Sign up a new customer with name <name> surname <surname> email <email> and <password>
+*Sign up as <name> <surname> with email <email> and <password>
+

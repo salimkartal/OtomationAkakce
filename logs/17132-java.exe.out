@@ -1,0 +1,75 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+{"logLevel":"debug","message":"gauge-java took 1821milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1821"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 61384"}
+{"logLevel":"info","message":"Listening on port:61384"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.openToAkakce' and 'org.example.StepImplementation.openToAkakce'"}
+{"logLevel":"debug","message":"Found Open to Akakce in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.SearchWithKey' and 'org.example.StepImplementation.SearchWithKey'"}
+{"logLevel":"debug","message":"Found Search with {} {} {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.registerCustomerWith' and 'org.example.StepImplementation.registerCustomerWith'"}
+{"logLevel":"debug","message":"Found Sign up as {} {} with email {} and {} in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tOpen to Akakce : public void openToAkakce()"}
+{"logLevel":"debug","message":"\tSign up as {} {} with email {} and {} : public void registerCustomerWith(String name, String surname, String email, String password) throws InterruptedException"}
+{"logLevel":"debug","message":"\tSearch with {} {} {} : public void SearchWithKey(String keyWord, String minValue, String maxValue) throws IOException, InterruptedException"}
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 40557
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2023 4:44:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 110
+{"logLevel":"debug","message":"Executing 'Open to Akakce' using 'class org.example.StepImplementation.openToAkakce"}
+{"logLevel":"debug","message":"Executing 'Sign up as {} {} with email {} and {}' using 'class org.example.StepImplementation.registerCustomerWith"}
+{"logLevel":"debug","message":"Executing 'Search with {} {} {}' using 'class org.example.StepImplementation.SearchWithKey"}
+Huawei FreeBuds 4i ANC Kulak ?�i Bluetooth Kulakl?k
+Jabra Elite 7 Pro TWS ANC Kulak İçi Bluetooth Kulaklık
+Huawei FreeBuds 5 TWS ANC Gri Kulak İçi Bluetooth Kulaklık
+1More ES901 ComfoBuds Pro TWS ANC Kablosuz Kulak İçi Bluetooth Kulaklık Beyaz
+Philips TAPH805BK ANC Hi-Res Kulak Üstü Bluetooth Kulaklık
+Huawei FreeBuds 4i ANC Kulak İçi Bluetooth Kulaklık Siyah
+Philips TABH305BK Bass+ ANC Kulak Üstü Bluetooth Kulaklık
+Anker SoundCore Life Q10i ANC Kulak Üstü Bluetooth Kulaklık
+Huawei FreeBuds 5 TWS ANC Kulak İçi Bluetooth Kulaklık
+JBL Tune 230NC TWS ANC Kulak İçi Bluetooth Kulaklık
+Anker SoundCore Life Note 3i TWS ANC Kulak İçi Bluetooth Kulaklık
+Sennheiser HD 450BT ANC Kulak Üstü Bluetooth Kulaklık
+Sennheiser HD 450BT ANC Kulak Üstü Bluetooth Kulaklık Beyaz
+JBL Club 950NC ANC Kulak Üstü Bluetooth Kulaklık
+Urbanista Los Angeles Güneş Enerjili ANC Kulak Üstü Kulaklık Altın Sarısı
+Philips TAH8507 ANC Kulak Üstü Bluetooth Kulaklık
+Urbanista Los Angeles Güneş Enerjili ANC Kulak Üstü Kulaklık
+PKA Pembe Akıllı Saat Airpods Seri 2 Anc Özellikli Bluetooth Kulaklık
+Philips TAA7507BK Kablosuz Spor Kulaklık, IPX5, ANC Pro, Rüzgar Gürültüsü Önleme
+Urbanista Miami ANC Kulak Üstü Bluetooth Kulaklık
+Philips TAH8506BK ANC Kulak Üstü Bluetooth Kulaklık Siyah
+Philips Taa7507Bk Gerçek Kablosuz Spor Kulaklık 28 Saat Ipx5 Anc Pro Hi-Res Audio Mono Mod
+Jul 06, 2023 4:45:00 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

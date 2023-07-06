@@ -1,0 +1,35 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+{"logLevel":"debug","message":"gauge-java took 1846milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1846"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 49982"}
+{"logLevel":"info","message":"Listening on port:49982"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.openToAkakce' and 'org.example.StepImplementation.openToAkakce'"}
+{"logLevel":"debug","message":"Found Open to Akakce in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.SearchWithKey' and 'org.example.StepImplementation.SearchWithKey'"}
+{"logLevel":"debug","message":"Found Search with {} {} {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.registerCustomerWith' and 'org.example.StepImplementation.registerCustomerWith'"}
+{"logLevel":"debug","message":"Found Sign up as {} {} with email {} and {} in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tOpen to Akakce : public void openToAkakce()"}
+{"logLevel":"debug","message":"\tSign up as {} {} with email {} and {} : public void registerCustomerWith(String name, String surname, String email, String password) throws InterruptedException"}
+{"logLevel":"debug","message":"\tSearch with {} {} {} : public void SearchWithKey(String keyWord, String minValue, String maxValue) throws IOException, InterruptedException"}
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 24302
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2023 6:40:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 110
+{"logLevel":"debug","message":"Executing 'Open to Akakce' using 'class org.example.StepImplementation.openToAkakce"}
+{"logLevel":"debug","message":"Executing 'Sign up as {} {} with email {} and {}' using 'class org.example.StepImplementation.registerCustomerWith"}
+{"logLevel":"debug","message":"Executing 'Search with {} {} {}' using 'class org.example.StepImplementation.SearchWithKey"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
