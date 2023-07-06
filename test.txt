@@ -19,6 +19,8 @@ Philips TAA7507BK Kablosuz Spor Kulaklık, IPX5, ANC Pro, Rüzgar Gürültüsü 
 Urbanista Miami ANC Kulak Üstü Bluetooth Kulaklık
 Philips TAH8506BK ANC Kulak Üstü Bluetooth Kulaklık Siyah
 Philips Taa7507Bk Gerçek Kablosuz Spor Kulaklık 28 Saat Ipx5 Anc Pro Hi-Res Audio Mono Mod
+{"logLevel":"debug","message":"Executing 'Logout to Account' using 'class org.example.StepImplementation.Logout"}
+{"logLevel":"debug","message":"Executing 'Login with {} and {}' using 'class org.example.StepImplementation.Login"}
 {"logLevel":"debug","message":"Killing Java runner..."}
 {"logLevel":"debug","message":"Stopping execution pool..."}
 {"logLevel":"debug","message":"Shutting down grpc server..."}

@@ -3,6 +3,7 @@ package org.example;
 import com.thoughtworks.gauge.Gauge;
 import com.thoughtworks.gauge.Step;
 import driver.Driver;
+import org.checkerframework.checker.units.qual.A;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -81,28 +82,32 @@ public class StepImplementation extends BasePage {
             System.out.println(elementText);
             System.setOut(tee);
         }
-        Thread.sleep(5000);
+        Thread.sleep(2000);
 
+
+    }
+
+    @Step("Logout to Account")
+    public void Logout() throws InterruptedException{
+        WebDriverWait wait= new WebDriverWait(webDriver,Duration.ofSeconds(10));
+        Thread.sleep(10000);
+        WebElement element1=wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("HM_v8")));
         Actions actions =new Actions(webDriver);
-        WebElement element=webDriver.findElement(By.id("H_a_v8"));
-        actions.moveToElement(element).build().perform();
-        element.click();
-        Thread.sleep(3000);
-        WebElement option =webDriver.findElement(By.id("HM_p_v8"));
-        element.click();
-
+        actions.moveToElement(element1).build().perform();
+        actions.moveToElement(element1,15,0).build().perform();
         Thread.sleep(5000);
-        WebElement elementone = (new WebDriverWait(webDriver, Duration.ofSeconds(10))).until(ExpectedConditions.visibilityOfElementLocated(By.id("H_a_v8")));
-        Actions move=new Actions(webDriver);
-        actions.moveToElement(elementone).build().perform();
+        WebElement element2=wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"HM_v8\"]/ul/li[5]/a")));
+        element2.click();
+        Thread.sleep(2000);
+    }
 
-        Thread.sleep(5000);
-        WebElement elementthree=webDriver.findElement(By.id("HM_p_v8"));
-
-        JavascriptExecutor executor=(JavascriptExecutor) webDriver;
-        executor.executeScript("arguments[0].click();",elementthree);
-
-        //webDriver.findElement(By.xpath("//*[@id='HM_v8']/ul/li[5]/a")).click();
+    @Step("Login with <email> and <password>")
+    public void Login(String email,String password) throws InterruptedException{
+        webDriver.findElement(By.linkText("Giriş Yap")).click();
+        webDriver.findElement(By.id("life")).sendKeys(email);
+        webDriver.findElement(By.id("lifp")).sendKeys(password);
+        webDriver.findElement(By.id("lfb")).click();
+        Thread.sleep(2000);
     }
 
     /*

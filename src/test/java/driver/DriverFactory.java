@@ -29,11 +29,14 @@ public class DriverFactory {
                 WebDriverManager.chromedriver().setup();
 
 	            ChromeOptions options = new ChromeOptions();
+
                 options.addArguments("--remote-allow-origins=*");
+                options.addArguments("--start-maximized");
 	            if ("Y".equalsIgnoreCase(System.getenv("HEADLESS"))) {
 	                options.addArguments("--headless");
 	                options.addArguments("--disable-gpu");
                     options.addArguments("--remote-allow-origins=*");
+                    options.addArguments("--start-maximized");
 	            }
 
 	            return new ChromeDriver(options);

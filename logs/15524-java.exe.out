@@ -3,11 +3,11 @@
 SLF4J: No SLF4J providers were found.
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
-{"logLevel":"debug","message":"gauge-java took 2204milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
-{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 2204"}
+{"logLevel":"debug","message":"gauge-java took 1854milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1854"}
 {"logLevel":"debug","message":"starting gRPC server..."}
-{"logLevel":"debug","message":"started gRPC server on port 60053"}
-{"logLevel":"info","message":"Listening on port:60053"}
+{"logLevel":"debug","message":"started gRPC server on port 51953"}
+{"logLevel":"info","message":"Listening on port:51953"}
 {"logLevel":"debug","message":"Scanning packages for steps"}
 {"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.openToAkakce' and 'org.example.StepImplementation.openToAkakce'"}
 {"logLevel":"debug","message":"Found Open to Akakce in current project scope."}
@@ -19,43 +19,34 @@ SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
 {"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
 {"logLevel":"debug","message":"\tOpen to Akakce : public void openToAkakce()"}
 {"logLevel":"debug","message":"\tSign up as {} {} with email {} and {} : public void registerCustomerWith(String name, String surname, String email, String password) throws InterruptedException"}
-{"logLevel":"debug","message":"\tSearch with {} {} {} : public void SearchWithKey(String keyWord, String minValue, String maxValue) throws IOException"}
-Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 42159
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 06, 2023 4:16:58 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
-WARNING: Invalid Status code=403 text=Forbidden
-java.io.IOException: Invalid Status code=403 text=Forbidden
-	at org.asynchttpclient.netty.handler.WebSocketHandler.abort(WebSocketHandler.java:92)
-	at org.asynchttpclient.netty.handler.WebSocketHandler.handleRead(WebSocketHandler.java:118)
-	at org.asynchttpclient.netty.handler.AsyncHttpClientHandler.channelRead(AsyncHttpClientHandler.java:78)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
-	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346)
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:333)
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:454)
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
-	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-
+{"logLevel":"debug","message":"\tSearch with {} {} {} : public void SearchWithKey(String keyWord, String minValue, String maxValue) throws IOException, InterruptedException"}
+Jul 07, 2023 12:54:00 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
+{"logLevel":"debug","message":"Executing 'Open to Akakce' using 'class org.example.StepImplementation.openToAkakce"}
+{"logLevel":"debug","message":"Executing 'Sign up as {} {} with email {} and {}' using 'class org.example.StepImplementation.registerCustomerWith"}
+{"logLevel":"debug","message":"Executing 'Search with {} {} {}' using 'class org.example.StepImplementation.SearchWithKey"}
+Huawei FreeBuds 4i ANC Kulak ?�i Bluetooth Kulakl?k
+Jabra Elite 7 Pro TWS ANC Kulak İçi Bluetooth Kulaklık
+Huawei FreeBuds 5 TWS ANC Gri Kulak İçi Bluetooth Kulaklık
+1More ES901 ComfoBuds Pro TWS ANC Kablosuz Kulak İçi Bluetooth Kulaklık Beyaz
+Philips TAPH805BK ANC Hi-Res Kulak Üstü Bluetooth Kulaklık
+Huawei FreeBuds 4i ANC Kulak İçi Bluetooth Kulaklık Siyah
+Philips TABH305BK Bass+ ANC Kulak Üstü Bluetooth Kulaklık
+Anker SoundCore Life Q10i ANC Kulak Üstü Bluetooth Kulaklık
+Huawei FreeBuds 5 TWS ANC Kulak İçi Bluetooth Kulaklık
+JBL Tune 230NC TWS ANC Kulak İçi Bluetooth Kulaklık
+Anker SoundCore Life Note 3i TWS ANC Kulak İçi Bluetooth Kulaklık
+Sennheiser HD 450BT ANC Kulak Üstü Bluetooth Kulaklık
+Sennheiser HD 450BT ANC Kulak Üstü Bluetooth Kulaklık Beyaz
+JBL Club 950NC ANC Kulak Üstü Bluetooth Kulaklık
+Urbanista Los Angeles Güneş Enerjili ANC Kulak Üstü Kulaklık Altın Sarısı
+Philips TAH8507 ANC Kulak Üstü Bluetooth Kulaklık
+Urbanista Los Angeles Güneş Enerjili ANC Kulak Üstü Kulaklık
+PKA Pembe Akıllı Saat Airpods Seri 2 Anc Özellikli Bluetooth Kulaklık
+Philips TAA7507BK Kablosuz Spor Kulaklık, IPX5, ANC Pro, Rüzgar Gürültüsü Önleme
+Urbanista Miami ANC Kulak Üstü Bluetooth Kulaklık
+Philips TAH8506BK ANC Kulak Üstü Bluetooth Kulaklık Siyah
+Philips Taa7507Bk Gerçek Kablosuz Spor Kulaklık 28 Saat Ipx5 Anc Pro Hi-Res Audio Mono Mod
 {"logLevel":"debug","message":"Killing Java runner..."}
 {"logLevel":"debug","message":"Stopping execution pool..."}
 {"logLevel":"debug","message":"Shutting down grpc server..."}
